@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271D2E651C7C3AFC008F358B /* YZTextLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D2E641C7C3AFC008F358B /* YZTextLoginModel.m */; };
+		271D2E681C7C3F39008F358B /* YZTestModelManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D2E671C7C3F39008F358B /* YZTestModelManger.m */; };
+		273048CE1C572E3A00B9A8C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 273048CD1C572E3A00B9A8C8 /* main.m */; };
+		273048D11C572E3A00B9A8C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 273048D01C572E3A00B9A8C8 /* AppDelegate.m */; };
+		273048D71C572E3A00B9A8C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273048D51C572E3A00B9A8C8 /* Main.storyboard */; };
+		273048D91C572E3A00B9A8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273048D81C572E3A00B9A8C8 /* Assets.xcassets */; };
+		273048DC1C572E3A00B9A8C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273048DA1C572E3A00B9A8C8 /* LaunchScreen.storyboard */; };
+		273048E71C572E3A00B9A8C8 /* loginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273048E61C572E3A00B9A8C8 /* loginDemoTests.m */; };
+		273048F21C572E3A00B9A8C8 /* loginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273048F11C572E3A00B9A8C8 /* loginDemoUITests.m */; };
+		273049021C573B5200B9A8C8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273049011C573B5200B9A8C8 /* BaseViewController.m */; };
+		273049141C573F0500B9A8C8 /* YZRootVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 273049131C573F0500B9A8C8 /* YZRootVCManager.m */; };
+		2730491B1C574D0300B9A8C8 /* YZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2730491A1C574D0300B9A8C8 /* YZNavigationViewController.m */; };
+		2730491F1C5758CB00B9A8C8 /* RYHttpRequestManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2730491E1C5758CB00B9A8C8 /* RYHttpRequestManger.m */; };
+		273049241C57629F00B9A8C8 /* LXMThirdLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 273049221C57629F00B9A8C8 /* LXMThirdLoginManager.m */; };
+		273049251C57629F00B9A8C8 /* LXMThirdLoginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 273049231C57629F00B9A8C8 /* LXMThirdLoginResult.m */; };
+		2730492A1C57633200B9A8C8 /* LXMSinaWeiboHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 273049261C57633200B9A8C8 /* LXMSinaWeiboHelper.m */; };
+		2730492B1C57633200B9A8C8 /* LXMWeChatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 273049271C57633200B9A8C8 /* LXMWeChatHelper.m */; };
+		274D48E91C586014007BCD91 /* NSString+ThreeDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D48E81C586014007BCD91 /* NSString+ThreeDES.m */; };
+		274D48ED1C5870E7007BCD91 /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D48EC1C5870E7007BCD91 /* FirstPageViewController.m */; };
+		274D48F01C58726F007BCD91 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D48EF1C58726F007BCD91 /* LeftSlideViewController.m */; };
+		274D48F51C5872A2007BCD91 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D48F41C5872A2007BCD91 /* UIView_extra.m */; };
+		274D48FC1C587300007BCD91 /* otherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D48FB1C587300007BCD91 /* otherViewController.m */; };
+		274D48FF1C588D2B007BCD91 /* CircleImageButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D48FE1C588D2B007BCD91 /* CircleImageButtonView.m */; };
+		274D49021C589E21007BCD91 /* FirstPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D49011C589E21007BCD91 /* FirstPageCollectionViewCell.m */; };
+		277AF18A1C75997A008AC116 /* YZForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277AF1891C75997A008AC116 /* YZForgetPasswordViewController.m */; };
+		2785A2201C7024E8006D72C8 /* YZUserinfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A21E1C7024E8006D72C8 /* YZUserinfoModel.m */; };
+		2785A22A1C702672006D72C8 /* RYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A2271C702672006D72C8 /* RYHelper.m */; };
+		2785A22B1C702672006D72C8 /* RYToastHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A2291C702672006D72C8 /* RYToastHelp.m */; };
+		2785A22F1C7026CA006D72C8 /* NSUserDefaults+SaveSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A22E1C7026CA006D72C8 /* NSUserDefaults+SaveSettings.m */; };
+		2785A2331C702711006D72C8 /* UIColor+YZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A2321C702711006D72C8 /* UIColor+YZColor.m */; };
+		2785A2381C70277C006D72C8 /* RYLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A2371C70277C006D72C8 /* RYLable.m */; };
+		2785A23C1C7027BA006D72C8 /* RYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A23B1C7027BA006D72C8 /* RYButton.m */; };
+		2785A24B1C7184AA006D72C8 /* YZLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A24A1C7184AA006D72C8 /* YZLoginModel.m */; };
+		2785A24E1C718AAC006D72C8 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A24D1C718AAC006D72C8 /* LeftSortsViewController.m */; };
+		2785A2511C718B22006D72C8 /* YZUserinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2785A2501C718B22006D72C8 /* YZUserinfoViewController.m */; };
+		27C3A89F1C732C57005F50C9 /* YZHLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C3A89A1C732C57005F50C9 /* YZHLLoginViewController.m */; };
+		27C3A8A11C732C57005F50C9 /* YZResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C3A89E1C732C57005F50C9 /* YZResetViewController.m */; };
+		27C3A8A41C732C6A005F50C9 /* ChangeDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C3A8A31C732C6A005F50C9 /* ChangeDeviceView.m */; };
+		305C9CAC2BE1DF6DB045042D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2C87AF3507FC31671B4A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273048E31C572E3A00B9A8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273048C11C572E3A00B9A8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273048C81C572E3A00B9A8C8;
+			remoteInfo = loginDemo;
+		};
+		273048EE1C572E3A00B9A8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273048C11C572E3A00B9A8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273048C81C572E3A00B9A8C8;
+			remoteInfo = loginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		155A2C87AF3507FC31671B4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		271D2E631C7C3AFC008F358B /* YZTextLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTextLoginModel.h; sourceTree = "<group>"; };
+		271D2E641C7C3AFC008F358B /* YZTextLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTextLoginModel.m; sourceTree = "<group>"; };
+		271D2E661C7C3F39008F358B /* YZTestModelManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTestModelManger.h; sourceTree = "<group>"; };
+		271D2E671C7C3F39008F358B /* YZTestModelManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTestModelManger.m; sourceTree = "<group>"; };
+		273048C91C572E3A00B9A8C8 /* ThreeDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		273048CD1C572E3A00B9A8C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		273048CF1C572E3A00B9A8C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		273048D01C572E3A00B9A8C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		273048D61C572E3A00B9A8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		273048D81C572E3A00B9A8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		273048DB1C572E3A00B9A8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		273048DD1C572E3A00B9A8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273048E21C572E3A00B9A8C8 /* ThreeDoctor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDoctor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273048E61C572E3A00B9A8C8 /* loginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginDemoTests.m; sourceTree = "<group>"; };
+		273048E81C572E3A00B9A8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273048ED1C572E3A00B9A8C8 /* ThreeDoctor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDoctor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273048F11C572E3A00B9A8C8 /* loginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginDemoUITests.m; sourceTree = "<group>"; };
+		273048F31C572E3A00B9A8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273049001C573B5200B9A8C8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		273049011C573B5200B9A8C8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		273049121C573F0500B9A8C8 /* YZRootVCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZRootVCManager.h; sourceTree = "<group>"; };
+		273049131C573F0500B9A8C8 /* YZRootVCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZRootVCManager.m; sourceTree = "<group>"; };
+		273049161C5741E600B9A8C8 /* YZConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZConstants.h; sourceTree = "<group>"; };
+		273049181C574A6600B9A8C8 /* ThreeDoctor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeDoctor-Prefix.pch"; sourceTree = "<group>"; };
+		273049191C574D0300B9A8C8 /* YZNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNavigationViewController.h; sourceTree = "<group>"; };
+		2730491A1C574D0300B9A8C8 /* YZNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNavigationViewController.m; sourceTree = "<group>"; };
+		2730491D1C5758CB00B9A8C8 /* RYHttpRequestManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHttpRequestManger.h; sourceTree = "<group>"; };
+		2730491E1C5758CB00B9A8C8 /* RYHttpRequestManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHttpRequestManger.m; sourceTree = "<group>"; };
+		273049201C57629F00B9A8C8 /* LXMThirdLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMThirdLoginManager.h; sourceTree = "<group>"; };
+		273049211C57629F00B9A8C8 /* LXMThirdLoginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMThirdLoginResult.h; sourceTree = "<group>"; };
+		273049221C57629F00B9A8C8 /* LXMThirdLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMThirdLoginManager.m; sourceTree = "<group>"; };
+		273049231C57629F00B9A8C8 /* LXMThirdLoginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMThirdLoginResult.m; sourceTree = "<group>"; };
+		273049261C57633200B9A8C8 /* LXMSinaWeiboHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMSinaWeiboHelper.m; sourceTree = "<group>"; };
+		273049271C57633200B9A8C8 /* LXMWeChatHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMWeChatHelper.m; sourceTree = "<group>"; };
+		273049281C57633200B9A8C8 /* LXMSinaWeiboHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMSinaWeiboHelper.h; sourceTree = "<group>"; };
+		273049291C57633200B9A8C8 /* LXMWeChatHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMWeChatHelper.h; sourceTree = "<group>"; };
+		273049321C57654300B9A8C8 /* HttpFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpFile.h; sourceTree = "<group>"; };
+		274D48E71C586014007BCD91 /* NSString+ThreeDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ThreeDES.h"; sourceTree = "<group>"; };
+		274D48E81C586014007BCD91 /* NSString+ThreeDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ThreeDES.m"; sourceTree = "<group>"; };
+		274D48EB1C5870E7007BCD91 /* FirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
+		274D48EC1C5870E7007BCD91 /* FirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
+		274D48EE1C58726F007BCD91 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		274D48EF1C58726F007BCD91 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		274D48F31C5872A2007BCD91 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		274D48F41C5872A2007BCD91 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		274D48FA1C587300007BCD91 /* otherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherViewController.h; sourceTree = "<group>"; };
+		274D48FB1C587300007BCD91 /* otherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherViewController.m; sourceTree = "<group>"; };
+		274D48FD1C588D2B007BCD91 /* CircleImageButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleImageButtonView.h; sourceTree = "<group>"; };
+		274D48FE1C588D2B007BCD91 /* CircleImageButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleImageButtonView.m; sourceTree = "<group>"; };
+		274D49001C589E21007BCD91 /* FirstPageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageCollectionViewCell.h; sourceTree = "<group>"; };
+		274D49011C589E21007BCD91 /* FirstPageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageCollectionViewCell.m; sourceTree = "<group>"; };
+		277AF1881C75997A008AC116 /* YZForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZForgetPasswordViewController.h; sourceTree = "<group>"; };
+		277AF1891C75997A008AC116 /* YZForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZForgetPasswordViewController.m; sourceTree = "<group>"; };
+		2785A21D1C7024E8006D72C8 /* YZUserinfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZUserinfoModel.h; sourceTree = "<group>"; };
+		2785A21E1C7024E8006D72C8 /* YZUserinfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZUserinfoModel.m; sourceTree = "<group>"; };
+		2785A2261C702672006D72C8 /* RYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHelper.h; sourceTree = "<group>"; };
+		2785A2271C702672006D72C8 /* RYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHelper.m; sourceTree = "<group>"; };
+		2785A2281C702672006D72C8 /* RYToastHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYToastHelp.h; sourceTree = "<group>"; };
+		2785A2291C702672006D72C8 /* RYToastHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYToastHelp.m; sourceTree = "<group>"; };
+		2785A22D1C7026CA006D72C8 /* NSUserDefaults+SaveSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+SaveSettings.h"; sourceTree = "<group>"; };
+		2785A22E1C7026CA006D72C8 /* NSUserDefaults+SaveSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+SaveSettings.m"; sourceTree = "<group>"; };
+		2785A2311C702711006D72C8 /* UIColor+YZColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YZColor.h"; sourceTree = "<group>"; };
+		2785A2321C702711006D72C8 /* UIColor+YZColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YZColor.m"; sourceTree = "<group>"; };
+		2785A2361C70277C006D72C8 /* RYLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLable.h; sourceTree = "<group>"; };
+		2785A2371C70277C006D72C8 /* RYLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLable.m; sourceTree = "<group>"; };
+		2785A23A1C7027BA006D72C8 /* RYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYButton.h; sourceTree = "<group>"; };
+		2785A23B1C7027BA006D72C8 /* RYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYButton.m; sourceTree = "<group>"; };
+		2785A2491C7184AA006D72C8 /* YZLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLoginModel.h; sourceTree = "<group>"; };
+		2785A24A1C7184AA006D72C8 /* YZLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLoginModel.m; sourceTree = "<group>"; };
+		2785A24C1C718AAC006D72C8 /* LeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortsViewController.h; sourceTree = "<group>"; };
+		2785A24D1C718AAC006D72C8 /* LeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortsViewController.m; sourceTree = "<group>"; };
+		2785A24F1C718B22006D72C8 /* YZUserinfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZUserinfoViewController.h; sourceTree = "<group>"; };
+		2785A2501C718B22006D72C8 /* YZUserinfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZUserinfoViewController.m; sourceTree = "<group>"; };
+		27C3A8991C732C57005F50C9 /* YZHLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHLLoginViewController.h; sourceTree = "<group>"; };
+		27C3A89A1C732C57005F50C9 /* YZHLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHLLoginViewController.m; sourceTree = "<group>"; };
+		27C3A89D1C732C57005F50C9 /* YZResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZResetViewController.h; sourceTree = "<group>"; };
+		27C3A89E1C732C57005F50C9 /* YZResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZResetViewController.m; sourceTree = "<group>"; };
+		27C3A8A21C732C6A005F50C9 /* ChangeDeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeDeviceView.h; sourceTree = "<group>"; };
+		27C3A8A31C732C6A005F50C9 /* ChangeDeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeDeviceView.m; sourceTree = "<group>"; };
+		5A252C47CED73E98BE7B9DC6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8D2345814575DE5BA8D970 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273048C61C572E3A00B9A8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305C9CAC2BE1DF6DB045042D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273048DF1C572E3A00B9A8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273048EA1C572E3A00B9A8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273048C01C572E3A00B9A8C8 = {
+			isa = PBXGroup;
+			children = (
+				273048CB1C572E3A00B9A8C8 /* loginDemo */,
+				273048E51C572E3A00B9A8C8 /* loginDemoTests */,
+				273048F01C572E3A00B9A8C8 /* loginDemoUITests */,
+				273048CA1C572E3A00B9A8C8 /* Products */,
+				E2A0C37C6773502A92E5BA57 /* Pods */,
+				6CFD081380339E4E0A185767 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		273048CA1C572E3A00B9A8C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273048C91C572E3A00B9A8C8 /* ThreeDoctor.app */,
+				273048E21C572E3A00B9A8C8 /* ThreeDoctor.xctest */,
+				273048ED1C572E3A00B9A8C8 /* ThreeDoctor.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273048CB1C572E3A00B9A8C8 /* loginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				273049391C576B9B00B9A8C8 /* Category */,
+				2730491C1C5752C900B9A8C8 /* SDK */,
+				273049101C573D4000B9A8C8 /* Config */,
+				2730490B1C573D0B00B9A8C8 /* Helper */,
+				273049081C573C8B00B9A8C8 /* Function */,
+				273049071C573C4F00B9A8C8 /* Default */,
+				273049031C573B5900B9A8C8 /* Base */,
+				273048CC1C572E3A00B9A8C8 /* Supporting Files */,
+			);
+			path = loginDemo;
+			sourceTree = "<group>";
+		};
+		273048CC1C572E3A00B9A8C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				273048CD1C572E3A00B9A8C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		273048E51C572E3A00B9A8C8 /* loginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				273048E61C572E3A00B9A8C8 /* loginDemoTests.m */,
+				273048E81C572E3A00B9A8C8 /* Info.plist */,
+			);
+			path = loginDemoTests;
+			sourceTree = "<group>";
+		};
+		273048F01C572E3A00B9A8C8 /* loginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				273048F11C572E3A00B9A8C8 /* loginDemoUITests.m */,
+				273048F31C572E3A00B9A8C8 /* Info.plist */,
+			);
+			path = loginDemoUITests;
+			sourceTree = "<group>";
+		};
+		273048FF1C573B2700B9A8C8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2211C7024F4006D72C8 /* View */,
+				2785A21A1C7024DC006D72C8 /* Model */,
+				2785A2101C7024BF006D72C8 /* VC */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		273049031C573B5900B9A8C8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2730490A1C573CF000B9A8C8 /* BaseView */,
+				273049091C573CE200B9A8C8 /* BaseVC */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		273049071C573C4F00B9A8C8 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				273049111C573EB200B9A8C8 /* Delegate */,
+				273048D51C572E3A00B9A8C8 /* Main.storyboard */,
+				273048D81C572E3A00B9A8C8 /* Assets.xcassets */,
+				273048DA1C572E3A00B9A8C8 /* LaunchScreen.storyboard */,
+				273048DD1C572E3A00B9A8C8 /* Info.plist */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		273049081C573C8B00B9A8C8 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				274D48EA1C5870BE007BCD91 /* FirstPage */,
+				273048FF1C573B2700B9A8C8 /* Login */,
+			);
+			name = Function;
+			sourceTree = "<group>";
+		};
+		273049091C573CE200B9A8C8 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				273049001C573B5200B9A8C8 /* BaseViewController.h */,
+				273049011C573B5200B9A8C8 /* BaseViewController.m */,
+				273049191C574D0300B9A8C8 /* YZNavigationViewController.h */,
+				2730491A1C574D0300B9A8C8 /* YZNavigationViewController.m */,
+			);
+			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		2730490A1C573CF000B9A8C8 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2391C70279E006D72C8 /* UIButton */,
+				2785A2351C70275C006D72C8 /* UILable */,
+			);
+			name = BaseView;
+			sourceTree = "<group>";
+		};
+		2730490B1C573D0B00B9A8C8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2251C702663006D72C8 /* FuncHelper */,
+				273049381C576AF800B9A8C8 /* 3DES */,
+				2730490F1C573D3100B9A8C8 /* Login */,
+				2730490E1C573D2A00B9A8C8 /* Push */,
+				2730490D1C573D2200B9A8C8 /* Share */,
+				2730490C1C573D1900B9A8C8 /* Http */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		2730490C1C573D1900B9A8C8 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				2730491D1C5758CB00B9A8C8 /* RYHttpRequestManger.h */,
+				2730491E1C5758CB00B9A8C8 /* RYHttpRequestManger.m */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		2730490D1C573D2200B9A8C8 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		2730490E1C573D2A00B9A8C8 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		2730490F1C573D3100B9A8C8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				273049281C57633200B9A8C8 /* LXMSinaWeiboHelper.h */,
+				273049261C57633200B9A8C8 /* LXMSinaWeiboHelper.m */,
+				273049291C57633200B9A8C8 /* LXMWeChatHelper.h */,
+				273049271C57633200B9A8C8 /* LXMWeChatHelper.m */,
+				273049201C57629F00B9A8C8 /* LXMThirdLoginManager.h */,
+				273049221C57629F00B9A8C8 /* LXMThirdLoginManager.m */,
+				273049211C57629F00B9A8C8 /* LXMThirdLoginResult.h */,
+				273049231C57629F00B9A8C8 /* LXMThirdLoginResult.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		273049101C573D4000B9A8C8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				273049161C5741E600B9A8C8 /* YZConstants.h */,
+				273049321C57654300B9A8C8 /* HttpFile.h */,
+				273049181C574A6600B9A8C8 /* ThreeDoctor-Prefix.pch */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		273049111C573EB200B9A8C8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				273048CF1C572E3A00B9A8C8 /* AppDelegate.h */,
+				273048D01C572E3A00B9A8C8 /* AppDelegate.m */,
+				273049121C573F0500B9A8C8 /* YZRootVCManager.h */,
+				273049131C573F0500B9A8C8 /* YZRootVCManager.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		2730491C1C5752C900B9A8C8 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		273049381C576AF800B9A8C8 /* 3DES */ = {
+			isa = PBXGroup;
+			children = (
+				274D48E71C586014007BCD91 /* NSString+ThreeDES.h */,
+				274D48E81C586014007BCD91 /* NSString+ThreeDES.m */,
+			);
+			name = 3DES;
+			sourceTree = "<group>";
+		};
+		273049391C576B9B00B9A8C8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2301C702704006D72C8 /* UIColor */,
+				2785A22C1C7026BA006D72C8 /* UserDefault */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		274D48EA1C5870BE007BCD91 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				274D48F61C5872A7007BCD91 /* Model */,
+				274D48F21C587293007BCD91 /* View */,
+				274D48F11C587288007BCD91 /* VC */,
+			);
+			name = FirstPage;
+			sourceTree = "<group>";
+		};
+		274D48F11C587288007BCD91 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2785A24C1C718AAC006D72C8 /* LeftSortsViewController.h */,
+				2785A24D1C718AAC006D72C8 /* LeftSortsViewController.m */,
+				274D48FA1C587300007BCD91 /* otherViewController.h */,
+				274D48FB1C587300007BCD91 /* otherViewController.m */,
+				274D48EE1C58726F007BCD91 /* LeftSlideViewController.h */,
+				274D48EF1C58726F007BCD91 /* LeftSlideViewController.m */,
+				274D48EB1C5870E7007BCD91 /* FirstPageViewController.h */,
+				274D48EC1C5870E7007BCD91 /* FirstPageViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		274D48F21C587293007BCD91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				274D48F31C5872A2007BCD91 /* UIView_extra.h */,
+				274D48F41C5872A2007BCD91 /* UIView_extra.m */,
+				274D48FD1C588D2B007BCD91 /* CircleImageButtonView.h */,
+				274D48FE1C588D2B007BCD91 /* CircleImageButtonView.m */,
+				274D49001C589E21007BCD91 /* FirstPageCollectionViewCell.h */,
+				274D49011C589E21007BCD91 /* FirstPageCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		274D48F61C5872A7007BCD91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2785A2101C7024BF006D72C8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				27C3A8991C732C57005F50C9 /* YZHLLoginViewController.h */,
+				27C3A89A1C732C57005F50C9 /* YZHLLoginViewController.m */,
+				277AF1881C75997A008AC116 /* YZForgetPasswordViewController.h */,
+				277AF1891C75997A008AC116 /* YZForgetPasswordViewController.m */,
+				27C3A89D1C732C57005F50C9 /* YZResetViewController.h */,
+				27C3A89E1C732C57005F50C9 /* YZResetViewController.m */,
+				2785A24F1C718B22006D72C8 /* YZUserinfoViewController.h */,
+				2785A2501C718B22006D72C8 /* YZUserinfoViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		2785A21A1C7024DC006D72C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2491C7184AA006D72C8 /* YZLoginModel.h */,
+				2785A24A1C7184AA006D72C8 /* YZLoginModel.m */,
+				2785A21D1C7024E8006D72C8 /* YZUserinfoModel.h */,
+				2785A21E1C7024E8006D72C8 /* YZUserinfoModel.m */,
+				271D2E631C7C3AFC008F358B /* YZTextLoginModel.h */,
+				271D2E641C7C3AFC008F358B /* YZTextLoginModel.m */,
+				271D2E661C7C3F39008F358B /* YZTestModelManger.h */,
+				271D2E671C7C3F39008F358B /* YZTestModelManger.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2785A2211C7024F4006D72C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27C3A8A21C732C6A005F50C9 /* ChangeDeviceView.h */,
+				27C3A8A31C732C6A005F50C9 /* ChangeDeviceView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2785A2251C702663006D72C8 /* FuncHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2261C702672006D72C8 /* RYHelper.h */,
+				2785A2271C702672006D72C8 /* RYHelper.m */,
+				2785A2281C702672006D72C8 /* RYToastHelp.h */,
+				2785A2291C702672006D72C8 /* RYToastHelp.m */,
+			);
+			name = FuncHelper;
+			sourceTree = "<group>";
+		};
+		2785A22C1C7026BA006D72C8 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				2785A22D1C7026CA006D72C8 /* NSUserDefaults+SaveSettings.h */,
+				2785A22E1C7026CA006D72C8 /* NSUserDefaults+SaveSettings.m */,
+			);
+			name = UserDefault;
+			sourceTree = "<group>";
+		};
+		2785A2301C702704006D72C8 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2311C702711006D72C8 /* UIColor+YZColor.h */,
+				2785A2321C702711006D72C8 /* UIColor+YZColor.m */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
+		2785A2351C70275C006D72C8 /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+				2785A2361C70277C006D72C8 /* RYLable.h */,
+				2785A2371C70277C006D72C8 /* RYLable.m */,
+			);
+			name = UILable;
+			sourceTree = "<group>";
+		};
+		2785A2391C70279E006D72C8 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				2785A23A1C7027BA006D72C8 /* RYButton.h */,
+				2785A23B1C7027BA006D72C8 /* RYButton.m */,
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
+		6CFD081380339E4E0A185767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155A2C87AF3507FC31671B4A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A0C37C6773502A92E5BA57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A252C47CED73E98BE7B9DC6 /* Pods.debug.xcconfig */,
+				7C8D2345814575DE5BA8D970 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		273048C81C572E3A00B9A8C8 /* ThreeDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273048F61C572E3A00B9A8C8 /* Build configuration list for PBXNativeTarget "ThreeDoctor" */;
+			buildPhases = (
+				3F291EB7B3E81319F7A20D7C /* Check Pods Manifest.lock */,
+				273048C51C572E3A00B9A8C8 /* Sources */,
+				273048C61C572E3A00B9A8C8 /* Frameworks */,
+				273048C71C572E3A00B9A8C8 /* Resources */,
+				F4737E9751BDB42535CF893C /* Embed Pods Frameworks */,
+				8D36C7FECD715831B3AEE91D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeDoctor;
+			productName = loginDemo;
+			productReference = 273048C91C572E3A00B9A8C8 /* ThreeDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		273048E11C572E3A00B9A8C8 /* ThreeDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273048F91C572E3A00B9A8C8 /* Build configuration list for PBXNativeTarget "ThreeDoctorTests" */;
+			buildPhases = (
+				273048DE1C572E3A00B9A8C8 /* Sources */,
+				273048DF1C572E3A00B9A8C8 /* Frameworks */,
+				273048E01C572E3A00B9A8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273048E41C572E3A00B9A8C8 /* PBXTargetDependency */,
+			);
+			name = ThreeDoctorTests;
+			productName = loginDemoTests;
+			productReference = 273048E21C572E3A00B9A8C8 /* ThreeDoctor.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		273048EC1C572E3A00B9A8C8 /* ThreeDoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273048FC1C572E3A00B9A8C8 /* Build configuration list for PBXNativeTarget "ThreeDoctorUITests" */;
+			buildPhases = (
+				273048E91C572E3A00B9A8C8 /* Sources */,
+				273048EA1C572E3A00B9A8C8 /* Frameworks */,
+				273048EB1C572E3A00B9A8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273048EF1C572E3A00B9A8C8 /* PBXTargetDependency */,
+			);
+			name = ThreeDoctorUITests;
+			productName = loginDemoUITests;
+			productReference = 273048ED1C572E3A00B9A8C8 /* ThreeDoctor.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273048C11C572E3A00B9A8C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "若义张";
+				TargetAttributes = {
+					273048C81C572E3A00B9A8C8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6RF3ZP5A3J;
+					};
+					273048E11C572E3A00B9A8C8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 273048C81C572E3A00B9A8C8;
+					};
+					273048EC1C572E3A00B9A8C8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 273048C81C572E3A00B9A8C8;
+					};
+				};
+			};
+			buildConfigurationList = 273048C41C572E3A00B9A8C8 /* Build configuration list for PBXProject "ThreeDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 273048C01C572E3A00B9A8C8;
+			productRefGroup = 273048CA1C572E3A00B9A8C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273048C81C572E3A00B9A8C8 /* ThreeDoctor */,
+				273048E11C572E3A00B9A8C8 /* ThreeDoctorTests */,
+				273048EC1C572E3A00B9A8C8 /* ThreeDoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273048C71C572E3A00B9A8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273048DC1C572E3A00B9A8C8 /* LaunchScreen.storyboard in Resources */,
+				273048D91C572E3A00B9A8C8 /* Assets.xcassets in Resources */,
+				273048D71C572E3A00B9A8C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273048E01C572E3A00B9A8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273048EB1C572E3A00B9A8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F291EB7B3E81319F7A20D7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D36C7FECD715831B3AEE91D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4737E9751BDB42535CF893C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273048C51C572E3A00B9A8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273049141C573F0500B9A8C8 /* YZRootVCManager.m in Sources */,
+				273049241C57629F00B9A8C8 /* LXMThirdLoginManager.m in Sources */,
+				274D49021C589E21007BCD91 /* FirstPageCollectionViewCell.m in Sources */,
+				274D48ED1C5870E7007BCD91 /* FirstPageViewController.m in Sources */,
+				271D2E681C7C3F39008F358B /* YZTestModelManger.m in Sources */,
+				274D48FC1C587300007BCD91 /* otherViewController.m in Sources */,
+				274D48F51C5872A2007BCD91 /* UIView_extra.m in Sources */,
+				277AF18A1C75997A008AC116 /* YZForgetPasswordViewController.m in Sources */,
+				274D48FF1C588D2B007BCD91 /* CircleImageButtonView.m in Sources */,
+				274D48E91C586014007BCD91 /* NSString+ThreeDES.m in Sources */,
+				273049021C573B5200B9A8C8 /* BaseViewController.m in Sources */,
+				2730492A1C57633200B9A8C8 /* LXMSinaWeiboHelper.m in Sources */,
+				2785A23C1C7027BA006D72C8 /* RYButton.m in Sources */,
+				273048D11C572E3A00B9A8C8 /* AppDelegate.m in Sources */,
+				2730491F1C5758CB00B9A8C8 /* RYHttpRequestManger.m in Sources */,
+				27C3A89F1C732C57005F50C9 /* YZHLLoginViewController.m in Sources */,
+				271D2E651C7C3AFC008F358B /* YZTextLoginModel.m in Sources */,
+				2785A24B1C7184AA006D72C8 /* YZLoginModel.m in Sources */,
+				27C3A8A41C732C6A005F50C9 /* ChangeDeviceView.m in Sources */,
+				27C3A8A11C732C57005F50C9 /* YZResetViewController.m in Sources */,
+				2785A2511C718B22006D72C8 /* YZUserinfoViewController.m in Sources */,
+				2730491B1C574D0300B9A8C8 /* YZNavigationViewController.m in Sources */,
+				2785A22A1C702672006D72C8 /* RYHelper.m in Sources */,
+				2785A2201C7024E8006D72C8 /* YZUserinfoModel.m in Sources */,
+				2785A2331C702711006D72C8 /* UIColor+YZColor.m in Sources */,
+				2785A2381C70277C006D72C8 /* RYLable.m in Sources */,
+				274D48F01C58726F007BCD91 /* LeftSlideViewController.m in Sources */,
+				273049251C57629F00B9A8C8 /* LXMThirdLoginResult.m in Sources */,
+				2785A24E1C718AAC006D72C8 /* LeftSortsViewController.m in Sources */,
+				2785A22F1C7026CA006D72C8 /* NSUserDefaults+SaveSettings.m in Sources */,
+				273048CE1C572E3A00B9A8C8 /* main.m in Sources */,
+				2785A22B1C702672006D72C8 /* RYToastHelp.m in Sources */,
+				2730492B1C57633200B9A8C8 /* LXMWeChatHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273048DE1C572E3A00B9A8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273048E71C572E3A00B9A8C8 /* loginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273048E91C572E3A00B9A8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273048F21C572E3A00B9A8C8 /* loginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273048E41C572E3A00B9A8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273048C81C572E3A00B9A8C8 /* ThreeDoctor */;
+			targetProxy = 273048E31C572E3A00B9A8C8 /* PBXContainerItemProxy */;
+		};
+		273048EF1C572E3A00B9A8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273048C81C572E3A00B9A8C8 /* ThreeDoctor */;
+			targetProxy = 273048EE1C572E3A00B9A8C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		273048D51C572E3A00B9A8C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273048D61C572E3A00B9A8C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		273048DA1C572E3A00B9A8C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273048DB1C572E3A00B9A8C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		273048F41C572E3A00B9A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		273048F51C572E3A00B9A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		273048F71C572E3A00B9A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A252C47CED73E98BE7B9DC6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yu chunjie (23N7Z727BC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu chunjie (23N7Z727BC)";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loginDemo/ThreeDoctor-Prefix.pch";
+				INFOPLIST_FILE = loginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yizhonghulian.ThreeDoctor;
+				PRODUCT_NAME = ThreeDoctor;
+				PROVISIONING_PROFILE = "ddfb82ff-6357-4a14-bb9a-1e7a30142544";
+			};
+			name = Debug;
+		};
+		273048F81C572E3A00B9A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8D2345814575DE5BA8D970 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yu chunjie (23N7Z727BC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu chunjie (23N7Z727BC)";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loginDemo/ThreeDoctor-Prefix.pch";
+				INFOPLIST_FILE = loginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yizhonghulian.ThreeDoctor;
+				PRODUCT_NAME = ThreeDoctor;
+				PROVISIONING_PROFILE = "ddfb82ff-6357-4a14-bb9a-1e7a30142544";
+			};
+			name = Release;
+		};
+		273048FA1C572E3A00B9A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = loginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addinghome.loginDemoTests;
+				PRODUCT_NAME = ThreeDoctor;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeDoctor.app/ThreeDoctor";
+			};
+			name = Debug;
+		};
+		273048FB1C572E3A00B9A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = loginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addinghome.loginDemoTests;
+				PRODUCT_NAME = ThreeDoctor;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeDoctor.app/ThreeDoctor";
+			};
+			name = Release;
+		};
+		273048FD1C572E3A00B9A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = loginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addinghome.loginDemoUITests;
+				PRODUCT_NAME = ThreeDoctor;
+				TEST_TARGET_NAME = loginDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		273048FE1C572E3A00B9A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = loginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addinghome.loginDemoUITests;
+				PRODUCT_NAME = ThreeDoctor;
+				TEST_TARGET_NAME = loginDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273048C41C572E3A00B9A8C8 /* Build configuration list for PBXProject "ThreeDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273048F41C572E3A00B9A8C8 /* Debug */,
+				273048F51C572E3A00B9A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273048F61C572E3A00B9A8C8 /* Build configuration list for PBXNativeTarget "ThreeDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273048F71C572E3A00B9A8C8 /* Debug */,
+				273048F81C572E3A00B9A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273048F91C572E3A00B9A8C8 /* Build configuration list for PBXNativeTarget "ThreeDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273048FA1C572E3A00B9A8C8 /* Debug */,
+				273048FB1C572E3A00B9A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273048FC1C572E3A00B9A8C8 /* Build configuration list for PBXNativeTarget "ThreeDoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273048FD1C572E3A00B9A8C8 /* Debug */,
+				273048FE1C572E3A00B9A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 273048C11C572E3A00B9A8C8 /* Project object */;
+}

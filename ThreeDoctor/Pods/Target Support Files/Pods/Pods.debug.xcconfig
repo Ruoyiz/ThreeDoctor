@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/GTMBase64" "${PODS_ROOT}/Headers/Public/Realm" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/WeiboSDK" "${PODS_ROOT}/Headers/Public/WeixinSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Realm/core" $(inherited) "${PODS_ROOT}/WeiboSDK/libWeiboSDK" $(inherited) "${PODS_ROOT}/WeixinSDK/WeChatSDK_1.4.3"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/GTMBase64" -isystem "${PODS_ROOT}/Headers/Public/Realm" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/WeiboSDK" -isystem "${PODS_ROOT}/Headers/Public/WeixinSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"GTMBase64" -l"Realm" -l"SVProgressHUD" -l"WeChatSDK" -l"WeiboSDK" -l"c++" -l"realm-ios" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods
